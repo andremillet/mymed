@@ -1,6 +1,6 @@
 [package]
 name = "mymed"
-version = "0.1.1"
+version = "0.1.11"
 edition = "2024"
 
 [dependencies]
@@ -16,6 +16,7 @@ clap = { version = "4.0", features = ["derive"] }
 chrono = "0.4"
 webbrowser = "0.8"
 atty = "0.2"
+crossterm = "0.27"
 
 [[bin]]
 name = "mymed"
