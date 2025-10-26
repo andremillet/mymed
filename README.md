@@ -35,7 +35,7 @@ curl -fsSL https://raw.githubusercontent.com/woulschneider/mymed/main/install.sh
 Isso baixa e instala o binário `mymed` em `/usr/local/bin`.
 
 ### Manual
-1. Baixe o binário da [release mais recente](https://github.com/woulschneider/mymed/releases).
+1. Baixe o binário da [release mais recente](https://github.com/andremillet/mymed/releases).
 2. `chmod +x mymed` e mova para `/usr/local/bin`.
 
 ### Desenvolvimento
