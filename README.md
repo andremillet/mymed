@@ -25,6 +25,20 @@ O projeto evolui para gestão de pacientes e atendimentos via arquivos .med, com
 
 ## Instalação
 
+### Via Script (Recomendado)
+Execute o comando abaixo no terminal para instalar automaticamente:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/woulschneider/mymed/main/install.sh | bash
+```
+
+Isso baixa e instala o binário `mymed` em `/usr/local/bin`.
+
+### Manual
+1. Baixe o binário da [release mais recente](https://github.com/woulschneider/mymed/releases).
+2. `chmod +x mymed` e mova para `/usr/local/bin`.
+
+### Desenvolvimento
 1. `cargo build --release`
 2. CLI: `./target/release/mymed new patient`
 3. Web: `./target/release/mymed` → http://127.0.0.1:8080
