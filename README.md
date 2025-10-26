@@ -17,7 +17,8 @@ O projeto evolui para gestão de pacientes e atendimentos via arquivos .med, com
 
 - `mymed new patient`: Prompt interativo para cadastrar paciente (CPF, nome, data nascimento DD/MM/AAAA).
 - `mymed import patient`: Prompt para caminho .med, exibe [PATIENT], confirma importação.
-- `mymed list patients`: Lista nomes de pacientes cadastrados/importados.
+- `mymed list patients`: Lista pacientes; interativo em terminal para selecionar e ver detalhes.
+- `mymed upgrade`: Verifica e atualiza para a versão mais recente.
 
 ## Interface Web
 

@@ -8,6 +8,7 @@ use rusqlite::Connection;
 use webbrowser;
 use clap::{Parser, Subcommand};
 use std::process::Command;
+use serde_json;
 
 #[derive(Serialize, Deserialize, Clone)]
 struct Patient {
@@ -75,6 +76,8 @@ enum Commands {
     },
     #[command(name = "web")]
     Web,
+    #[command(name = "upgrade")]
+    Upgrade,
 }
 
 #[derive(Subcommand)]
@@ -494,6 +497,41 @@ async fn main() -> std::io::Result<()> {
             Some(Commands::Web) => {
                 let _ = webbrowser::open("http://127.0.0.1:8080");
                 run_web().await
+            }
+            Some(Commands::Upgrade) => {
+                // check latest release
+                let output = std::process::Command::new("gh")
+                    .args(&["release", "list", "--json", "tagName", "--limit", "1"])
+                    .output()
+                    .expect("Failed to run gh");
+                let json: serde_json::Value = serde_json::from_slice(&output.stdout).unwrap();
+                let latest_tag = json[0]["tagName"].as_str().unwrap();
+                let current_version = env!("CARGO_PKG_VERSION");
+                if latest_tag > current_version {
+                    println!("Nova versão disponível: {}. Atualizando...", latest_tag);
+                    // download
+                    let download_output = std::process::Command::new("gh")
+                        .args(&["release", "download", latest_tag, "--pattern", "mymed"])
+                        .output()
+                        .expect("Failed to download");
+                    if download_output.status.success() {
+                        // make executable and move
+                        std::process::Command::new("chmod")
+                            .args(&["+x", "mymed"])
+                            .status()
+                            .expect("Failed to chmod");
+                        std::process::Command::new("sudo")
+                            .args(&["mv", "mymed", "/usr/local/bin/mymed"])
+                            .status()
+                            .expect("Failed to move");
+                        println!("Atualização concluída!");
+                    } else {
+                        println!("Erro ao baixar atualização.");
+                    }
+                } else {
+                    println!("Você já tem a versão mais recente: {}", current_version);
+                }
+                Ok(())
             }
             None => {
                 run_web().await
