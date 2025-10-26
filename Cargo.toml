@@ -15,6 +15,7 @@ rusqlite = { version = "0.31", features = ["bundled"] }
 clap = { version = "4.0", features = ["derive"] }
 chrono = "0.4"
 webbrowser = "0.8"
+atty = "0.2"
 
 [[bin]]
 name = "mymed"

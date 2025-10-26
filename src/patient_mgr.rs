@@ -40,13 +40,13 @@ fn main() {
             println!("Paciente adicionado.");
         }
         Commands::List => {
-            let mut stmt = conn.prepare("SELECT nome FROM patients ORDER BY nome").unwrap();
-            let names = stmt.query_map([], |row| {
-                Ok(row.get::<_, String>(0)?)
+            let mut stmt = conn.prepare("SELECT nome, cpf FROM patients ORDER BY nome").unwrap();
+            let patients = stmt.query_map([], |row| {
+                Ok((row.get::<_, String>(0)?, row.get::<_, String>(1)?))
             }).unwrap();
-            for (i, name_result) in names.enumerate() {
-                match name_result {
-                    Ok(name) => println!("{}. {}", i+1, name),
+            for (i, patient_result) in patients.enumerate() {
+                match patient_result {
+                    Ok((nome, cpf)) => println!("{}. {} - {}", i+1, nome, cpf),
                     Err(_) => {}
                 }
             }
