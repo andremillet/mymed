@@ -12,7 +12,7 @@ OS=$(uname -s | tr '[:upper:]' '[:lower:]')
 
 if [ "$OS" = "linux" ]; then
     if [ "$ARCH" = "x86_64" ]; then
-        BINARY_URL="https://github.com/andremillet/mymed/releases/download/v0.1.0/mymed"
+        BINARY_URL="https://github.com/andremillet/mymed/releases/download/v0.1.1/mymed.gz"
     else
         echo "Arquitetura não suportada: $ARCH"
         exit 1
@@ -23,7 +23,8 @@ else
 fi
 
 # Baixar e instalar
-curl -L "$BINARY_URL" -o /tmp/mymed
+curl -L "$BINARY_URL" -o /tmp/mymed.gz
+gunzip /tmp/mymed.gz
 chmod +x /tmp/mymed
 sudo mv /tmp/mymed /usr/local/bin/mymed
 

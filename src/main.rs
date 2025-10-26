@@ -512,10 +512,15 @@ async fn main() -> std::io::Result<()> {
                     println!("Nova versão disponível: {}. Atualizando...", latest_tag);
                     // download
                     let download_output = std::process::Command::new("gh")
-                        .args(&["release", "download", latest_tag, "--pattern", "mymed"])
+                        .args(&["release", "download", latest_tag, "--pattern", "mymed.gz"])
                         .output()
                         .expect("Failed to download");
                     if download_output.status.success() {
+                        // extract
+                        std::process::Command::new("gunzip")
+                            .args(&["mymed.gz"])
+                            .status()
+                            .expect("Failed to gunzip");
                         // make executable and move
                         std::process::Command::new("chmod")
                             .args(&["+x", "mymed"])
