@@ -12,7 +12,7 @@ OS=$(uname -s | tr '[:upper:]' '[:lower:]')
 
 if [ "$OS" = "linux" ]; then
     if [ "$ARCH" = "x86_64" ]; then
-        BINARY_URL="https://github.com/woulschneider/mymed/releases/download/v0.1.0/mymed"
+        BINARY_URL="https://github.com/andremillet/mymed/releases/download/v0.1.0/mymed"
     else
         echo "Arquitetura não suportada: $ARCH"
         exit 1

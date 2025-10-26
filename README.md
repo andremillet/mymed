@@ -29,13 +29,13 @@ O projeto evolui para gestão de pacientes e atendimentos via arquivos .med, com
 Execute o comando abaixo no terminal para instalar automaticamente:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/woulschneider/mymed/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/andremillet/mymed/main/install.sh | bash
 ```
 
 Isso baixa e instala o binário `mymed` em `/usr/local/bin`.
 
 ### Manual
-1. Baixe o binário da [release mais recente](https://github.com/woulschneider/mymed/releases).
+1. Baixe o binário da [release mais recente](https://github.com/andremillet/mymed/releases).
 2. `chmod +x mymed` e mova para `/usr/local/bin`.
 
 ### Desenvolvimento
