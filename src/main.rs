@@ -52,6 +52,7 @@ struct PatientSummary {
 #[derive(Parser)]
 #[command(name = "mymed")]
 #[command(about = "Medical management tool")]
+#[command(version)]
 struct Cli {
     #[command(subcommand)]
     command: Option<Commands>,
