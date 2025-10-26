@@ -1,0 +1,14 @@
+/home/woulschneider/petridish/mymed/med_viewer/target/debug/deps/serde-09060c4b205d32a3.d: /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/woulschneider/petridish/mymed/med_viewer/target/debug/build/serde-8e19bbf0d196a77a/out/private.rs
+
+/home/woulschneider/petridish/mymed/med_viewer/target/debug/deps/libserde-09060c4b205d32a3.rlib: /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/woulschneider/petridish/mymed/med_viewer/target/debug/build/serde-8e19bbf0d196a77a/out/private.rs
+
+/home/woulschneider/petridish/mymed/med_viewer/target/debug/deps/libserde-09060c4b205d32a3.rmeta: /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/woulschneider/petridish/mymed/med_viewer/target/debug/build/serde-8e19bbf0d196a77a/out/private.rs
+
+/home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/home/woulschneider/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/home/woulschneider/petridish/mymed/med_viewer/target/debug/build/serde-8e19bbf0d196a77a/out/private.rs:
+
+# env-dep:OUT_DIR=/home/woulschneider/petridish/mymed/med_viewer/target/debug/build/serde-8e19bbf0d196a77a/out
