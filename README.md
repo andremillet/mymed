@@ -2,6 +2,8 @@
 
 Sistema modular para gerenciamento médico: criação, importação e listagem de pacientes, com subprogramas CLI e wrapper web.
 
+**Versão Atual: 0.1.1**
+
 ## Visão Geral
 
 O projeto evolui para gestão de pacientes e atendimentos via arquivos .med, com compatibilidade FHIR.
@@ -22,7 +24,7 @@ O projeto evolui para gestão de pacientes e atendimentos via arquivos .med, com
 
 ## Interface Web
 
-- Botões/forms em index.html para "Novo Paciente", "Importar Paciente", "Listar Pacientes" (tabela).
+- Botões/forms em index.html para "Novo Paciente", "Importar Paciente", "Listar Pacientes" (tabela interativa).
 
 ## Instalação
 
