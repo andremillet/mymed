@@ -1,0 +1,40 @@
+[PATIENT]
+CPF: 123.456.008-00
+Nome: Paciente Ficticio 8
+Idade: 58
+
+[DOCTOR]
+CRM: 10008-SP
+Nome: Dr. Medico Ficticio 8
+Especialidade: Clinica Geral
+
+[TRANSACTION]
+ID: tx008
+Timestamp: 2025-10-12T18:00:00Z
+Hash: sha256_ficticio_8
+Signature: assinatura_ficticia_8
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+!MED SWISS 166MG/ML [5 GOTAS, 15 GOTAS] MANHA NOITE;
+LEVETIRACETAM 750MG 12/12 HORAS; LAMOTRIGINA 150MG 12/12 HORAS;
+
+
+!! ULTIMOS 3 MESES: 1 EPISODIO TCG; 3 EPISODIOS DISPERCEPTIVOS. EVENTOS RELACIONADOS A ESTRESSE/PRIVAÇÃO DE SONO
+
+!! MANTEM RELATOS DE PREJUIZO DE SONO
+!! MENOR PERCEPÇÃO DE EFEITO DA LAMOTRIGINA
+
+[CONDUTA]
+ORIENTO ROTINA NO HORARIO DE USO DE MEDICAÇÃO
+
+
+
+
+	

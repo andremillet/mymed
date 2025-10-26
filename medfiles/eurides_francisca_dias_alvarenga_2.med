@@ -1,0 +1,38 @@
+[PATIENT]
+CPF: 123.456.028-00
+Nome: Paciente Ficticio 28
+Idade: 76
+
+[DOCTOR]
+CRM: 20028-SP
+Nome: Dr. Medico Ficticio 28b
+Especialidade: Ginecologia
+
+[TRANSACTION]
+ID: tx028b
+Timestamp: 2025-10-17T12:00:00Z
+Hash: sha256_ficticio_28b
+Signature: assinatura_ficticia_28b
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+PACIENTE COM QUEIXA DE SANGUE NA MENSTRUACAO.
+
+!HPP MENORRAGIA;
+
+[EXAME FISICO]
+SEM ALTERACOES;
+
+[HIPOTESE DIAGNOSTICA]
+MENORRAGIA
+
+[CONDUTA]
+!SOLICITO ULTRASSONOGRAFIA PELVICA;
+

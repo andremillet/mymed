@@ -1,0 +1,40 @@
+[PATIENT]
+CPF: 123.456.021-00
+Nome: Paciente Ficticio 21
+Idade: 71
+
+[DOCTOR]
+CRM: 30021-SP
+Nome: Dr. Medico Ficticio 21c
+Especialidade: Neurologia
+
+[TRANSACTION]
+ID: tx021c
+Timestamp: 2025-10-20T09:00:00Z
+Hash: sha256_ficticio_21c
+Signature: assinatura_ficticia_21c
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+PACIENTE EM ACOMPANHAMENTO NEUROLOGICO. PROGRESSAO DA DOENCA DE ALZHEIMER.
+
+!HPP ALZHEIMER; PARKINSON;
+!MED PINAZAN 25MG NOITE; ALPRAZOLAM 0,5MG;
+
+[EXAME FISICO]
+VIGIL; DISCINESIA OROFACIAL;
+
+[HIPOTESE DIAGNOSTICA]
+DOENCA DE ALZHEIMER AVANCADA
+
+[CONDUTA]
+!AJUSTO PINAZAN 50MG NOITE;
+!SOLICITO RMN CEREBRAL;
+

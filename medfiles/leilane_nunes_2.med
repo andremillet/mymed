@@ -1,0 +1,38 @@
+[PATIENT]
+CPF: 123.456.041-00
+Nome: Paciente Ficticio 41
+Idade: 81
+
+[DOCTOR]
+CRM: 20041-SP
+Nome: Dr. Medico Ficticio 41b
+Especialidade: Urologia
+
+[TRANSACTION]
+ID: tx041b
+Timestamp: 2025-10-19T16:00:00Z
+Hash: sha256_ficticio_41b
+Signature: assinatura_ficticia_41b
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+PACIENTE COM PROBLEMAS URINARIOS.
+
+!HPP INCONTINENCIA;
+
+[EXAME FISICO]
+SEM ALTERACOES;
+
+[HIPOTESE DIAGNOSTICA]
+INCONTINENCIA URINARIA
+
+[CONDUTA]
+!ENCAMINHO [UROLOGIA];
+

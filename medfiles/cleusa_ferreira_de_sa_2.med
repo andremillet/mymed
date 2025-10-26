@@ -1,0 +1,40 @@
+[PATIENT]
+CPF: 123.456.021-00
+Nome: Paciente Ficticio 21
+Idade: 71
+
+[DOCTOR]
+CRM: 20021-SP
+Nome: Dr. Medico Ficticio 21b
+Especialidade: Cardiologia
+
+[TRANSACTION]
+ID: tx021b
+Timestamp: 2025-10-15T10:00:00Z
+Hash: sha256_ficticio_21b
+Signature: assinatura_ficticia_21b
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+PACIENTE RETORNA PARA ACOMPANHAMENTO CARDIACO. QUEIXA DE DISPNEIA E DOR TORACICA.
+
+!HPP HAS; DM; ALZHEIMER;
+!MED ENALAPRIL 10MG MANHA; ANLODIPINO 5MG TARDE;
+
+[EXAME FISICO]
+PA: 140/90; FC: 80;
+
+[HIPOTESE DIAGNOSTICA]
+HIPERTENSAO ARTERIAL SISTEMICA
+
+[CONDUTA]
+!PRESCREVO LOSARTAN 50MG MANHA;
+!ENCAMINHO [CARDIOLOGIA PARA ECO];
+

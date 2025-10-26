@@ -1,0 +1,38 @@
+[PATIENT]
+CPF: 123.456.029-00
+Nome: Paciente Ficticio 29
+Idade: 77
+
+[DOCTOR]
+CRM: 30029-SP
+Nome: Dr. Medico Ficticio 29c
+Especialidade: Ortopedia
+
+[TRANSACTION]
+ID: tx029c
+Timestamp: 2025-10-23T15:00:00Z
+Hash: sha256_ficticio_29c
+Signature: assinatura_ficticia_29c
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+PACIENTE COM DOR NAS JUNTAS.
+
+!HPP ARTRITE;
+
+[EXAME FISICO]
+DOR ARTICULAR;
+
+[HIPOTESE DIAGNOSTICA]
+ARTRITE
+
+[CONDUTA]
+!PRESCREVO ANTIINFLAMATORIO;
+

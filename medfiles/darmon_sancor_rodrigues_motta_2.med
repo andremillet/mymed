@@ -1,0 +1,38 @@
+[PATIENT]
+CPF: 123.456.022-00
+Nome: Paciente Ficticio 22
+Idade: 72
+
+[DOCTOR]
+CRM: 20022-SP
+Nome: Dr. Medico Ficticio 22b
+Especialidade: Psiquiatria
+
+[TRANSACTION]
+ID: tx022b
+Timestamp: 2025-10-16T11:00:00Z
+Hash: sha256_ficticio_22b
+Signature: assinatura_ficticia_22b
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+PACIENTE COM TRANSTORNO DE ANSIEDADE GENERALIZADA.
+
+!HPP ANSIEDADE;
+
+[EXAME FISICO]
+SEM ALTERACOES;
+
+[HIPOTESE DIAGNOSTICA]
+TRANSTORNO DE ANSIEDADE GENERALIZADA
+
+[CONDUTA]
+!PRESCREVO SERTRALINA 50MG;
+

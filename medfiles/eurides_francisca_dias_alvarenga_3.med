@@ -1,0 +1,38 @@
+[PATIENT]
+CPF: 123.456.028-00
+Nome: Paciente Ficticio 28
+Idade: 76
+
+[DOCTOR]
+CRM: 30028-SP
+Nome: Dr. Medico Ficticio 28c
+Especialidade: Dermatologia
+
+[TRANSACTION]
+ID: tx028c
+Timestamp: 2025-10-22T13:00:00Z
+Hash: sha256_ficticio_28c
+Signature: assinatura_ficticia_28c
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+PACIENTE COM LESAO CUTANEA.
+
+!HPP LESAO CUTANEA;
+
+[EXAME FISICO]
+MANCHA NA PELE;
+
+[HIPOTESE DIAGNOSTICA]
+DERMATITE
+
+[CONDUTA]
+!PRESCREVO CREME ANTIALERGICO;
+

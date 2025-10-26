@@ -1,0 +1,75 @@
+[PATIENT]
+CPF: 123.456.005-00
+Nome: Paciente Ficticio 5
+Idade: 55
+
+[DOCTOR]
+CRM: 10005-SP
+Nome: Dr. Medico Ficticio 5
+Especialidade: Clinica Geral
+
+[TRANSACTION]
+ID: tx005
+Timestamp: 2025-10-12T15:00:00Z
+Hash: sha256_ficticio_5
+Signature: assinatura_ficticia_5
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[PATIENT]
+CPF: 123.456.789-00
+Nome: João Silva
+Idade: 65
+
+[DOCTOR]
+CRM: 54321-RJ
+Nome: Dr. Ana Pereira
+Especialidade: Neurologia
+
+[TRANSACTION]
+ID: tx001
+Timestamp: 2025-10-12T14:00:00Z
+Hash: sha256_placeholder
+Signature: assinatura_digital_ficticia_do_medico
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento prescrito.
+- Médico certifica o diagnóstico baseado em exames realizados.
+- Transação é imutável após assinatura digital.
+- Acesso autorizado apenas para entidades com permissão do paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+PACIENTE EM ACOMPANHAMENTO DE TREMOR, COM BAIXA RESPOSTA À PROPRANOLOL E INTOLERANCIA À PRIMIDONA. 
+COMPARECE COM EXAME ESTUDO DE IMAGEM PARA AVALIAÇÃO. TAMBEM APRESENTA QUEIXAS DE INSONIA INICIAL.
+!HPP HAS;
+!MED LOSARTANA 50MG; 
+!HF AVO PATERNA COM TREMORES;
+!EX @RM_CRANIO[07/2025]: SEM ALTERAÇÕES SIGNIFICATIVAS;
+!EX @ENMG[05/2025]: NORMAL; 
+!EX @RM_CERVICAL[03/2025]: PEQUENA PROTUSAO DISCAL CENTRAL EM C3-C4 E C4-C5, TOCANDO A FACE VENTRAL DO SACO DURAL;
+!EX @TRODAT[2024]: DISFUNÇÃO DOPAMINERGICA NIGROESTRIATAL;
+
+
+[EXAME FISICO]
+!ORIENTO [RIGIDEZ ARTICULAR PREDOMINANTE EM MEMBRO SUPERIOR DIREITO];
+!ORIENTO [TREMOR DE REPOUSO, FREQUENCIA MEDIA DE 8HZ, MELHORANDO À POSTURA];
+!ORIENTO [BRADICINESIA MODERADA];
+
+[HIPOTESE DIAGNOSTICA]
+!ORIENTO [DOENÇA DE PARKINSON];
+TREMOR ESSENCIAL PLUS?
+
+[CONDUTA]
+!PRESCREVO [PROLOPA BD] [1/2 COMPRIMIDO] [12/12 HORAS] >> [1 COMPRIMIDO] [4/4 HORAS];
+!ENCAMINHO [[FISIOTERAPIA]];
+!ORIENTO [NOVO EXAME FISICO AO RETORNO];
+!PRESCREVO [VENLAFAXINA] [37,5MG] [NOITE] >> [2 COMPRIMIDOS] [NOITE]; 
+

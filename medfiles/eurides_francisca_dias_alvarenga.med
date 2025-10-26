@@ -1,0 +1,40 @@
+[PATIENT]
+CPF: 123.456.028-00
+Nome: Paciente Ficticio 28
+Idade: 78
+
+[DOCTOR]
+CRM: 10028-SP
+Nome: Dr. Medico Ficticio 28
+Especialidade: Clinica Geral
+
+[TRANSACTION]
+ID: tx028
+Timestamp: 2025-10-12T18:00:00Z
+Hash: sha256_ficticio_28
+Signature: assinatura_ficticia_28
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+Paciente em acompanhamento medico geral
+!HPP HAS;
+!MED enalapril 10mg; fluoxetina 20mg; acido folico 5mg; quetiapina 25mg;
+
+[EXAME FISICO]
+!ORIENTO [monoparesia em membro inferior esquerdo];
+!ORIENTO [orientada];
+!ORIENTO [tremor de membros inferiores, com maior acometimento de mid];
+
+[HIPOTESE DIAGNOSTICA]
+!ORIENTO [monoparesia a esclarecer];
+
+[CONDUTA]
+novo exame fisico em proxima avaliacao
+!lab

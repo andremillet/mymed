@@ -1,0 +1,38 @@
+[PATIENT]
+CPF: 123.456.041-00
+Nome: Paciente Ficticio 41
+Idade: 81
+
+[DOCTOR]
+CRM: 30041-SP
+Nome: Dr. Medico Ficticio 41c
+Especialidade: Pneumologia
+
+[TRANSACTION]
+ID: tx041c
+Timestamp: 2025-10-24T17:00:00Z
+Hash: sha256_ficticio_41c
+Signature: assinatura_ficticia_41c
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+PACIENTE COM TOSSE CRONICA.
+
+!HPP TOSSE;
+
+[EXAME FISICO]
+TOSSE FREQUENTE;
+
+[HIPOTESE DIAGNOSTICA]
+BRONQUITE
+
+[CONDUTA]
+!PRESCREVO BRONCODILATADOR;
+

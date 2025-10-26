@@ -1,0 +1,38 @@
+[PATIENT]
+CPF: 123.456.053-00
+Nome: Paciente Ficticio 53
+Idade: 73
+
+[DOCTOR]
+CRM: 10053-SP
+Nome: Dr. Medico Ficticio 53
+Especialidade: Clinica Geral
+
+[TRANSACTION]
+ID: tx053
+Timestamp: 2025-10-12T13:00:00Z
+Hash: sha256_ficticio_53
+Signature: assinatura_ficticia_53
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+paciente com diagnostico de doenca de parkinson, apresentando diminuicao do periodo de acao da medicaçao, incluindo contração involuntaria de halux, bilateralmente.
+!hpp parkinson; 
+!med carbidol 250mg 6/6 horas; pramipexol 1mg 12/12 horas; quetiapina 25mg;
+
+[EXAME FISICO]
+!ORIENTO [vigil];
+!ORIENTO [cooperativo];
+
+[HIPOTESE DIAGNOSTICA]
+doença de parkinson; 
+
+[CONDUTA]
+!PRESCREVO +carbidol 250/25mg 4/4 horas;

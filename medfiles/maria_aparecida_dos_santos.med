@@ -1,0 +1,41 @@
+[PATIENT]
+CPF: 123.456.047-00
+Nome: Paciente Ficticio 47
+Idade: 67
+
+[DOCTOR]
+CRM: 10047-SP
+Nome: Dr. Medico Ficticio 47
+Especialidade: Clinica Geral
+
+[TRANSACTION]
+ID: tx047
+Timestamp: 2025-10-12T17:00:00Z
+Hash: sha256_ficticio_47
+Signature: assinatura_ficticia_47
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+paciente com diagnostico de retardo mental grave, com microcefalia, em avaliacao medica de rotina.
+!hpp microcefalia; retardo mental grave;
+!med amplictil 25mg 12/12 horas; 
+
+[EXAME FISICO]
+!ORIENTO [vigil];
+!ORIENTO [minima interaçao com examinador];
+!ORIENTO [significativo prejuizo em auto cuidado];
+!ORIENTO [pouco cooperativa];
+!ORIENTO [ausencia de comunicacao verbal];
+
+[HIPOTESE DIAGNOSTICA]
+!ORIENTO [retardo mental grave];
+
+[CONDUTA]
+!lab

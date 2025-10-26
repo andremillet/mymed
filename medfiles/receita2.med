@@ -1,0 +1,30 @@
+[PATIENT]
+CPF: 123.456.056-00
+Nome: Paciente Ficticio 56
+Idade: 76
+
+[DOCTOR]
+CRM: 10056-SP
+Nome: Dr. Medico Ficticio 56
+Especialidade: Clinica Geral
+
+[TRANSACTION]
+ID: tx056
+Timestamp: 2025-10-12T16:00:00Z
+Hash: sha256_ficticio_56
+Signature: assinatura_ficticia_56
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+
+
+felipe vasco 11111111111-
+Zolpidem 10mg1 comprimido a noite30"30"$
+andre millet11111111
+neurologia

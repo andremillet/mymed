@@ -1,0 +1,39 @@
+[PATIENT]
+CPF: 123.456.022-00
+Nome: Paciente Ficticio 22
+Idade: 72
+
+[DOCTOR]
+CRM: 30022-SP
+Nome: Dr. Medico Ficticio 22c
+Especialidade: Endocrinologia
+
+[TRANSACTION]
+ID: tx022c
+Timestamp: 2025-10-21T08:00:00Z
+Hash: sha256_ficticio_22c
+Signature: assinatura_ficticia_22c
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+PACIENTE COM DIABETES MELLITUS TIPO 2.
+
+!HPP DM;
+!MED METFORMINA 500MG;
+
+[EXAME FISICO]
+GLICEMIA: 150;
+
+[HIPOTESE DIAGNOSTICA]
+DIABETES MELLITUS TIPO 2
+
+[CONDUTA]
+!AJUSTO METFORMINA 850MG;
+

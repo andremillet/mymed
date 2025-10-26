@@ -1,0 +1,38 @@
+[PATIENT]
+CPF: 123.456.029-00
+Nome: Paciente Ficticio 29
+Idade: 77
+
+[DOCTOR]
+CRM: 20029-SP
+Nome: Dr. Medico Ficticio 29b
+Especialidade: Oftalmologia
+
+[TRANSACTION]
+ID: tx029b
+Timestamp: 2025-10-18T14:00:00Z
+Hash: sha256_ficticio_29b
+Signature: assinatura_ficticia_29b
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+[ANAMNESE]
+PACIENTE COM VISÃO TURVA.
+
+!HPP MIOPIA;
+
+[EXAME FISICO]
+VISÃO REDUZIDA;
+
+[HIPOTESE DIAGNOSTICA]
+MIOPIA
+
+[CONDUTA]
+!PRESCREVO OCULOS;
+

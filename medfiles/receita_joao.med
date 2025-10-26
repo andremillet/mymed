@@ -1,0 +1,30 @@
+[PATIENT]
+CPF: 123.456.057-00
+Nome: Paciente Ficticio 57
+Idade: 77
+
+[DOCTOR]
+CRM: 10057-SP
+Nome: Dr. Medico Ficticio 57
+Especialidade: Clinica Geral
+
+[TRANSACTION]
+ID: tx057
+Timestamp: 2025-10-12T17:00:00Z
+Hash: sha256_ficticio_57
+Signature: assinatura_ficticia_57
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+
+
+João Silva#123.456.789-00H
+Paracetamol 500mg1 comprimido a cada 8 horas5 dias"15 comprimidos
+2025-02-20"+
+Dr. Maria Oliveira12345Clínica Geral*Tomar após as refeições.

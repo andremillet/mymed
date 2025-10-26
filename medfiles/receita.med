@@ -1,0 +1,30 @@
+[PATIENT]
+CPF: 123.456.058-00
+Nome: Paciente Ficticio 58
+Idade: 78
+
+[DOCTOR]
+CRM: 10058-SP
+Nome: Dr. Medico Ficticio 58
+Especialidade: Clinica Geral
+
+[TRANSACTION]
+ID: tx058
+Timestamp: 2025-10-12T18:00:00Z
+Hash: sha256_ficticio_58
+Signature: assinatura_ficticia_58
+
+[CONTRACT_CONDITIONS]
+- Paciente consente com o tratamento.
+- Médico certifica o diagnóstico.
+- Transação imutável após assinatura.
+- Acesso controlado pelo paciente.
+
+[CONTENT]
+
+
+)
+felipe de oliveira vasco11111111111+
+amitriptilina1 vez a noite3 meses"30"2
+andre batista millet neves11111111
+neurologia
